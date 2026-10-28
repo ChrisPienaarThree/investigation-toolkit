@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Incident Investigation Toolkit</title>
+<meta name="description" content="Storyline Casebook, Tripod Beta Investigator and RCA Fault Tree for Istec Training investigation learners. Runs on iPad, iPhone, Android and computers.">
+<meta name="theme-color" content="#0f2a4d">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%230f2a4d'/%3E%3Ccircle cx='28' cy='28' r='13' fill='none' stroke='white' stroke-width='5'/%3E%3Cpath d='M38 38l12 12' stroke='white' stroke-width='6' stroke-linecap='round'/%3E%3C/svg%3E">
+<link rel="apple-touch-icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' fill='%230f2a4d'/%3E%3Ccircle cx='28' cy='28' r='13' fill='none' stroke='white' stroke-width='5'/%3E%3Cpath d='M38 38l12 12' stroke='white' stroke-width='6' stroke-linecap='round'/%3E%3C/svg%3E">
+<style>
+/* Layout: a single column; three tool cards, then saving rules, then downloads. Phone first. */
+:root{
+  --bg:#f4f6f9; --surface:#ffffff; --fg:#14202e; --muted:#566476; --line:#d8dee7;
+  --navy:#0f2a4d; --accent:#1f5fa8; --accent-soft:#e3edf8; --warn:#8a5a00; --warn-soft:#fbf1dc;
+  --sans:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+  --mono:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;
+  color-scheme:light;
+}
+@media (prefers-color-scheme: dark){:root{
+  --bg:#0e141b; --surface:#161f2a; --fg:#e6ebf1; --muted:#9aa8b8; --line:#2a3644;
+  --navy:#0b1f3a; --accent:#7fb2ec; --accent-soft:#1a2c42; --warn:#e7b85a; --warn-soft:#33290f; color-scheme:dark}}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--fg);font:16px/1.55 var(--sans)}
+.band{background:var(--navy);color:#fff;padding-top:env(safe-area-inset-top,0px)}
+.in{max-width:60rem;margin:0 auto;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+.band .in{padding-block:1.6rem 1.8rem;display:grid;gap:.4rem}
+.mark{font:700 .8rem/1 var(--sans);letter-spacing:.14em;text-transform:uppercase;opacity:.8}
+h1{font-size:clamp(1.7rem,6vw,2.4rem);line-height:1.1;margin:0;text-wrap:balance}
+.band p{margin:0;max-width:44rem;color:#d5e1ef}
+main .in{padding-block:1.5rem 3rem;display:grid;gap:2rem}
+h2{font-size:1.3rem;margin:0 0 .7rem;text-wrap:balance}
+h3{font-size:1.15rem;margin:0}
+p{margin:.4rem 0;max-width:66ch}
+.tools{display:grid;grid-template-columns:repeat(auto-fit,minmax(16.5rem,1fr));gap:1rem}
+.tool{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:1.1rem;display:grid;gap:.55rem;align-content:start;min-width:0}
+.kicker{font:600 .72rem/1 var(--mono);letter-spacing:.08em;text-transform:uppercase;color:var(--accent)}
+.tool p{color:var(--muted);font-size:.95rem;margin:0}
+.tool ul{margin:0;padding-left:1.1rem;font-size:.92rem}
+.tool li{margin:.15rem 0}
+.btn{display:inline-flex;align-items:center;justify-content:center;min-height:44px;padding:.55rem 1.1rem;border-radius:10px;font-weight:600;text-decoration:none;border:1px solid var(--accent);color:var(--accent);background:transparent}
+.btn.primary{background:var(--accent);color:var(--surface);border-color:var(--accent)}
+@media (prefers-color-scheme: dark){.btn.primary{color:#0e141b}}
+.btn:focus-visible{outline:3px solid var(--accent);outline-offset:2px}
+.tool .btn{margin-top:.4rem;justify-self:start}
+.note{background:var(--warn-soft);border:1px solid var(--line);border-radius:12px;padding:1rem 1.1rem}
+.note h2{color:var(--warn);font-size:1.15rem}
+.note ul,.cols ul{margin:.3rem 0;padding-left:1.15rem}
+.note li,.cols li{margin:.35rem 0;max-width:66ch}
+.cols{display:grid;grid-template-columns:repeat(auto-fit,minmax(17rem,1fr));gap:1.5rem}
+.cols>div{min-width:0}
+.dl{list-style:none;padding:0;margin:0;display:grid;gap:.6rem}
+.dl li{background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:.75rem .9rem;display:grid;gap:.15rem}
+.dl a{font-weight:600;color:var(--accent);overflow-wrap:anywhere}
+.dl span{font-size:.88rem;color:var(--muted)}
+footer{font-size:.85rem;color:var(--muted);border-top:1px solid var(--line);padding-top:1rem}
+kbd{font:600 .85em var(--sans);border:1px solid var(--line);border-radius:5px;padding:0 .3em;background:var(--surface)}
+</style>
+</head>
+<body>
+<header class="band"><div class="in">
+  <div class="mark">Istec Training</div>
+  <h1>Incident Investigation Toolkit</h1>
+  <p>Three tools for your investigation course. They work in Safari or Chrome on an iPad, iPhone or Android device, and on any computer. There's nothing to install and no login.</p>
+</div></header>
+
+<main><div class="in">
+  <section aria-labelledby="tools-h">
+    <h2 id="tools-h">Choose a tool</h2>
+    <div class="tools">
+      <article class="tool">
+        <span class="kicker">Collect and sequence</span>
+        <h3>Storyline Casebook</h3>
+        <p>The full investigation file: initial report, evidence register with photos, ECFA+ storyline, ICAM coding, root causes, actions and the report.</p>
+        <ul><li>ICAM PEEPO evidence plan</li><li>CB-EX-02 dam drowning training case</li><li>Imports Tripod Beta and RCA Fault Tree packages</li></ul>
+        <a class="btn primary" href="tools/storyline-casebook.html">Open Storyline Casebook</a>
+      </article>
+      <article class="tool">
+        <span class="kicker">Barrier analysis</span>
+        <h3>Tripod Beta Investigator</h3>
+        <p>Model what happened (trios) and how the barriers failed. Each failure is traced from Immediate Cause to Precondition to Underlying Cause with Basic Risk Factors. A live check tests the tree against the rules.</p>
+        <ul><li>Evidence plan and photo schedule</li><li>TB-EX-09 dam drowning training case</li><li>SMART actions and Word report</li></ul>
+        <a class="btn primary" href="tools/tripod-beta.html">Open Tripod Beta</a>
+      </article>
+      <article class="tool">
+        <span class="kicker">Test hypotheses</span>
+        <h3>RCA Fault Tree</h3>
+        <p>A cause-and-effect fault tree for root cause analysis. Every branch is a hypothesis you confirm or rule out with evidence. Optional probabilities rank the hypotheses that are still open.</p>
+        <ul><li>Look-up library of failure and human-error values</li><li>Tank overfill worked example</li></ul>
+        <a class="btn primary" href="tools/rca-fault-tree.html">Open RCA Fault Tree</a>
+      </article>
+    </div>
+  </section>
+
+  <section class="note" aria-labelledby="save-h">
+    <h2 id="save-h">How your work is saved</h2>
+    <ul>
+      <li><b>Your work stays on your device, in this browser.</b> It isn't sent to Istec Training or to anyone else. Another device or browser won't show it.</li>
+      <li><b>Save a copy at the end of every session.</b> Use <i>Save to file</i> in the Casebook and Tripod Beta, or <i>Download backup copy</i> in the RCA Fault Tree. On an iPhone or iPad, the file goes to <i>Files ▸ Downloads</i>.</li>
+      <li><b>Safari may clear what a website keeps after about a week without a visit.</b> Your saved file is your real copy. Clearing your browser history also removes your work from the browser.</li>
+      <li><b>To carry on from a saved file,</b> open the tool and use <i>Open file…</i> (or <i>Open case file…</i> in Tripod Beta), then choose the file.</li>
+      <li><b>To hand work in,</b> send the saved file, or the Word or Excel export, to your facilitator.</li>
+    </ul>
+  </section>
+
+  <section class="cols" aria-label="Tips and downloads">
+    <div>
+      <h2>Tips for tablets and phones</h2>
+      <ul>
+        <li><b>Add the toolkit to your home screen</b> so it opens like an app.
+          <ul>
+            <li>iPhone and iPad: in Safari, tap <kbd>Share</kbd>, then <i>Add to Home Screen</i>.</li>
+            <li>Android: in Chrome, tap <kbd>⋮</kbd>, then <i>Add to Home screen</i>.</li>
+          </ul>
+        </li>
+        <li>An iPad, or a phone turned sideways, gives the diagrams the room they need. Use two fingers to zoom and pan.</li>
+        <li>The draft-tree helper in Tripod Beta asks an AI assistant for a first draft. On your own device you can copy its prompt and paste the answer back.</li>
+      </ul>
+    </div>
+    <div>
+      <h2>Training files</h2>
+      <ul class="dl">
+        <li><a href="examples/Training%20case%20-%20Dam%20drowning%20(TB-EX-09).tripod.json" download>Dam drowning training case (TB-EX-09)</a><span>Tripod Beta case file. It is also built in: open Tripod Beta and look under Reference cases.</span></li>
+        <li><a href="examples/Example%20-%20Tank%20T-101%20overfill.rcaft.json" download>Tank T-101 overfill example</a><span>RCA Fault Tree file. Open it with <i>Open file…</i>.</span></li>
+        <li><a href="guides/RCA%20Fault%20Tree%20-%20User%20guide.pdf">RCA Fault Tree user guide (PDF)</a><span>Written for the USB edition. The saving instructions above apply on tablets and phones.</span></li>
+      </ul>
+    </div>
+  </section>
+
+  <footer>Istec Training · Incident Investigation Toolkit, student edition. All training cases are anonymised and fictional.</footer>
+</div></main>
+</body>
+</html>
