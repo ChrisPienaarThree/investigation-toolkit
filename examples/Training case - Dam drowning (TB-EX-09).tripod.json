@@ -1,7 +1,7 @@
 {
  "format": "tripod-beta-case",
  "version": 1,
- "exportedAt": "2026-11-18T03:58:27.081Z",
+ "exportedAt": "2026-11-18T15:52:17.237Z",
  "app": "Istec Training Tripod Beta Investigator",
  "case": {
   "id": "example-dam-drowning",
@@ -810,6 +810,6 @@
    ]
   },
   "log": [],
-  "updatedAt": "2026-11-18T03:58:27.081Z"
+  "updatedAt": "2026-11-18T15:52:17.237Z"
  }
 }
