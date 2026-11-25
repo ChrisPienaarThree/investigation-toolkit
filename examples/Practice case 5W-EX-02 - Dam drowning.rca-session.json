@@ -1,0 +1,130 @@
+{
+ "format": "rca-session",
+ "version": 1,
+ "id": "smwvwgc8gaudr",
+ "created": "2026-11-25T09:06:46.384Z",
+ "meta": {
+  "title": "Contractor worker drowned at an overflowing return-water dam",
+  "ref": "5W-EX-02",
+  "date": "",
+  "location": "Ridgeview Vanadium Mine (fictional), north return-water dam and pump installation",
+  "facilitator": "",
+  "scribe": "",
+  "rules": "Look at the problem, not at blaming people.\nOne person talks at a time.\nEvery idea goes on the diagram first. We test ideas later.\nSay how you know: facts beat opinions.\nOff-topic points go to the parking lot."
+ },
+ "people": [],
+ "problem": {
+  "what": "A contractor worker drowned during an attempt to recover flooded pumps by boat",
+  "where": "North return-water dam and pump installation, Ridgeview Vanadium Mine (fictional)",
+  "when": "14 February 2026, about 15:20 to 15:40",
+  "extent": "1 fatality (Worker A); Worker B reached the bank",
+  "expected": "No one is put at risk on the water to save equipment; work on water is planned, with life jackets and rescue at hand",
+  "statement": "",
+  "effect": "Contractor worker drowned at the dam"
+ },
+ "facts": [
+  {
+   "id": "fmwvwgc8gs6e9",
+   "text": "On 13 and 14 February heavy rain fell in the upper catchment of the north return-water dam.",
+   "source": "Timeline"
+  },
+  {
+   "id": "fmwvwgc8gihwf",
+   "text": "About 14:30 the inflow raised the dam level quickly and the dam overflowed at the spillway. The pump installation at the dam was flooded.",
+   "source": "Timeline"
+  },
+  {
+   "id": "fmwvwgc8ge37i",
+   "text": "About 14:50 the control room operator saw the pump installation flooding and called the engineering manager. The control room noticed only when the pumps were flooding.",
+   "source": "Timeline and Case summary"
+  },
+  {
+   "id": "fmwvwgc8gb6vb",
+   "text": "The engineering manager asked the owner of a civils contractor on site to help recover the pumps.",
+   "source": "Case summary"
+  },
+  {
+   "id": "fmwvwgc8gyvm6",
+   "text": "The owner brought three workers with no experience of work on water.",
+   "source": "Case summary"
+  },
+  {
+   "id": "fmwvwgc8gz9g6",
+   "text": "About 15:20 two of the workers went out on the dam in an old boat that had stood unused behind the pump station for years. The third worker held a line from the bank.",
+   "source": "Timeline and Case summary"
+  },
+  {
+   "id": "fmwvwgc8g7ly7",
+   "text": "About 15:30 the current and wind carried the boat towards the spillway, and the line was pulled from the shore attendant's hands.",
+   "source": "Timeline"
+  },
+  {
+   "id": "fmwvwgc8gv9ev",
+   "text": "About 15:35, afraid of going over the wall, both workers left the boat to swim to the bank.",
+   "source": "Timeline and Case summary"
+  },
+  {
+   "id": "fmwvwgc8gh9r4",
+   "text": "Worker B reached the bank. Worker A, who could not swim, went under and drowned (about 15:40).",
+   "source": "Timeline and Case summary"
+  },
+  {
+   "id": "fmwvwgc8g7wqc",
+   "text": "There was no risk assessment or job plan for the work.",
+   "source": "Case summary"
+  },
+  {
+   "id": "fmwvwgc8gqfvx",
+   "text": "There were no life jackets and no rescue equipment at the dam.",
+   "source": "Case summary"
+  },
+  {
+   "id": "fmwvwgc8g19bs",
+   "text": "The workers had no training for work on water.",
+   "source": "Case summary"
+  },
+  {
+   "id": "fmwvwgc8guz63",
+   "text": "About 17:30 police divers recovered the body of Worker A.",
+   "source": "Timeline"
+  }
+ ],
+ "set": "6M",
+ "cats": [
+  {
+   "id": "kmwvwgc8gxn72",
+   "name": "People"
+  },
+  {
+   "id": "kmwvwgc8gv2rs",
+   "name": "Machine"
+  },
+  {
+   "id": "kmwvwgc8g9yof",
+   "name": "Method"
+  },
+  {
+   "id": "kmwvwgc8gx4mu",
+   "name": "Material"
+  },
+  {
+   "id": "kmwvwgc8gjdfz",
+   "name": "Measurement"
+  },
+  {
+   "id": "kmwvwgc8gn2ov",
+   "name": "Environment"
+  }
+ ],
+ "causes": [],
+ "parking": [],
+ "whys": [],
+ "actions": [],
+ "enquiries": [],
+ "signoff": {
+  "name": "",
+  "role": "",
+  "date": "",
+  "note": ""
+ }
+}
