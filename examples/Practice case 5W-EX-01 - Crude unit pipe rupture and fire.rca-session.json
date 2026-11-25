@@ -1,8 +1,8 @@
 {
  "format": "rca-session",
  "version": 1,
- "id": "smwvwgc8b15dt",
- "created": "2026-11-25T09:06:46.379Z",
+ "id": "smwvx5wgacjb8",
+ "created": "2026-11-25T09:26:38.986Z",
  "meta": {
   "title": "Crude unit pipe rupture and fire",
   "ref": "5W-EX-01",
@@ -24,77 +24,77 @@
  },
  "facts": [
   {
-   "id": "fmwvwgc8d0rk8",
+   "id": "fmwvx5wgba88m",
    "text": "About 15:50 an outside operator found drips of diesel-like liquid from an insulated pipe about 4 m above ground: the 4-sidecut line. It could not be isolated from the process.",
    "source": "CSB 2015, section 3.1"
   },
   {
-   "id": "fmwvwgc8dt63p",
+   "id": "fmwvx5wgb15dn",
    "text": "The leak was about 40 drips per minute. The supervisor and shift team leader judged it not significant enough to require a shutdown, but serious, and called the refinery fire department.",
    "source": "CSB 2015, section 3.1"
   },
   {
-   "id": "fmwvwgc8dj37s",
+   "id": "fmwvx5wgb8j56",
    "text": "Firefighters arrived about 16:07, set up incident command and taped off a hot zone of about 6 m by 6 m around the leak.",
    "source": "CSB 2015, section 3.1"
   },
   {
-   "id": "fmwvwgc8d0skm",
+   "id": "fmwvx5wgbg0vr",
    "text": "About 40 people gathered at the leak over the next hours. A leak repair contractor was called to assess clamping the line.",
    "source": "CSB 2015, section 3.2"
   },
   {
-   "id": "fmwvwgc8dzuf9",
+   "id": "fmwvx5wgbxhvp",
    "text": "Inspectors told the group the 4-sidecut walls were thinning from sulfidation corrosion, but data from two months before showed enough wall thickness to last to the 2016 turnaround. The group thought a local cause, such as wear at a pipe support, was likely.",
    "source": "CSB 2015, section 3.2"
   },
   {
-   "id": "fmwvwgc8djgw2",
+   "id": "fmwvx5wgbjynh",
    "text": "The group decided to remove the insulation to find the leak (\"daylighting\"). A scaffold was built and two firefighters removed sheathing; soaked insulation caught fire and was put out. Hose streams then knocked off insulation and the leak worsened to a spray.",
    "source": "CSB 2015, section 3.2"
   },
   {
-   "id": "fmwvwgc8d74ml",
+   "id": "fmwvx5wgbpfvz",
    "text": "Some firefighters believed the line ran at about 54 °C. The actual temperature was close to 340 °C, near the autoignition temperature of the light gas oil.",
    "source": "CSB 2015, finding 19 and section 2.4"
   },
   {
-   "id": "fmwvwgc8dtt4o",
+   "id": "fmwvx5wgb2au1",
    "text": "Some people were uneasy and some suggested a shutdown, but left the decision to the managers present. No one used Stop Work Authority. Chevron had no leak response protocol.",
    "source": "CSB 2015, findings 20 and 21"
   },
   {
-   "id": "fmwvwgc8dtq66",
+   "id": "fmwvx5wgb21jc",
    "text": "Managers then decided to shut the unit down. A vapour cloud engulfed 19 people in the hot and cold zones; it ignited about two minutes later. 18 escaped just before ignition; a firefighter in the fire engine made his way out through the flames in full protective gear.",
    "source": "CSB 2015, sections 1.1 and 3.3"
   },
   {
-   "id": "fmwvwgc8d1az3",
+   "id": "fmwvx5wgbaja8",
    "text": "The ruptured part was a 1.3 m (52-inch) component of the 8-inch line, ASTM A53B carbon steel installed in 1976, original wall about 8.2 mm. Near the rupture it had lost on average 90 % of its wall.",
    "source": "CSB 2013, paragraphs 4 and 5; CSB 2015, finding 5"
   },
   {
-   "id": "fmwvwgc8ddnu7",
+   "id": "fmwvx5wgb42jz",
    "text": "The ruptured component contained 0.01 % silicon. Six of 12 samples from the line had less than 0.10 %. Low-silicon carbon steel can corrode up to 16 times faster by sulfidation. A53B has no minimum silicon content.",
    "source": "CSB 2015, findings 3 to 5"
   },
   {
-   "id": "fmwvwgc8dvrzr",
+   "id": "fmwvx5wgbdv45",
    "text": "Thickness readings on the line were taken at monitoring points on higher-silicon fittings. In 2011, 12 points were added, but none on the component that failed.",
    "source": "CSB 2015, finding 10 and footnote 25"
   },
   {
-   "id": "fmwvwgc8d9gcc",
+   "id": "fmwvx5wgbd74t",
    "text": "In 2011 much of the 12-inch part of the same 4-sidecut line was replaced because it was too thin. The 8-inch part was judged fit to run.",
    "source": "CSB 2015, finding 16"
   },
   {
-   "id": "fmwvwgc8d0s9q",
+   "id": "fmwvx5wgbvtmy",
    "text": "A 2009 internal Chevron report recommended inspecting every component of high-temperature carbon steel piping like this line (100 % component inspection). It was not done on the 4-sidecut before 2012.",
    "source": "CSB 2015, finding 9"
   },
   {
-   "id": "fmwvwgc8dyisb",
+   "id": "fmwvx5wgbq5dq",
    "text": "Requests to replace the 8-inch line in the 2007 and 2011 turnarounds were turned down under the turnaround scope criteria (the \"Framing Document\").",
    "source": "CSB 2015, finding 10"
   }
@@ -102,27 +102,27 @@
  "set": "6M",
  "cats": [
   {
-   "id": "kmwvwgc8d7skv",
+   "id": "kmwvx5wgaduio",
    "name": "People"
   },
   {
-   "id": "kmwvwgc8duqkk",
+   "id": "kmwvx5wga7txe",
    "name": "Machine"
   },
   {
-   "id": "kmwvwgc8d4z80",
+   "id": "kmwvx5wgasb2h",
    "name": "Method"
   },
   {
-   "id": "kmwvwgc8davbq",
+   "id": "kmwvx5wgagqvd",
    "name": "Material"
   },
   {
-   "id": "kmwvwgc8dzn97",
+   "id": "kmwvx5wgao1dc",
    "name": "Measurement"
   },
   {
-   "id": "kmwvwgc8d3ba2",
+   "id": "kmwvx5wga37dp",
    "name": "Environment"
   }
  ],
