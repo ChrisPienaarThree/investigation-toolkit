@@ -1,8 +1,8 @@
 {
  "format": "rca-session",
  "version": 1,
- "id": "smwxqprxqaepm",
- "created": "2026-11-26T16:01:41.294Z",
+ "id": "smx09f08stfnu",
+ "created": "2026-11-28T10:20:43.900Z",
  "meta": {
   "title": "Contractor worker drowned at an overflowing return-water dam",
   "ref": "5W-EX-02",
@@ -24,67 +24,67 @@
  },
  "facts": [
   {
-   "id": "fmwxqprxqwp0j",
+   "id": "fmx09f08s0flp",
    "text": "On 13 and 14 February heavy rain fell in the upper catchment of the north return-water dam.",
    "source": "Timeline"
   },
   {
-   "id": "fmwxqprxqvezy",
+   "id": "fmx09f08scb3e",
    "text": "About 14:30 the inflow raised the dam level quickly and the dam overflowed at the spillway. The pump installation at the dam was flooded.",
    "source": "Timeline"
   },
   {
-   "id": "fmwxqprxquk20",
+   "id": "fmx09f08sn7jw",
    "text": "About 14:50 the control room operator saw the pump installation flooding and called the engineering manager. The control room noticed only when the pumps were flooding.",
    "source": "Timeline and Case summary"
   },
   {
-   "id": "fmwxqprxq1cu9",
+   "id": "fmx09f08sf5yj",
    "text": "The engineering manager asked the owner of a civils contractor on site to help recover the pumps.",
    "source": "Case summary"
   },
   {
-   "id": "fmwxqprxqnsjw",
+   "id": "fmx09f08s02sf",
    "text": "The owner brought three workers with no experience of work on water.",
    "source": "Case summary"
   },
   {
-   "id": "fmwxqprxq2i41",
+   "id": "fmx09f08sbh83",
    "text": "About 15:20 two of the workers went out on the dam in an old boat that had stood unused behind the pump station for years. The third worker held a line from the bank.",
    "source": "Timeline and Case summary"
   },
   {
-   "id": "fmwxqprxqvx8y",
+   "id": "fmx09f08smupk",
    "text": "About 15:30 the current and wind carried the boat towards the spillway, and the line was pulled from the shore attendant's hands.",
    "source": "Timeline"
   },
   {
-   "id": "fmwxqprxqgalr",
+   "id": "fmx09f08s2jz4",
    "text": "About 15:35, afraid of going over the wall, both workers left the boat to swim to the bank.",
    "source": "Timeline and Case summary"
   },
   {
-   "id": "fmwxqprxqs8t8",
+   "id": "fmx09f08sjol4",
    "text": "Worker B reached the bank. Worker A, who could not swim, went under and drowned (about 15:40).",
    "source": "Timeline and Case summary"
   },
   {
-   "id": "fmwxqprxq4d7y",
+   "id": "fmx09f08sgki4",
    "text": "There was no risk assessment or job plan for the work.",
    "source": "Case summary"
   },
   {
-   "id": "fmwxqprxqexvi",
+   "id": "fmx09f08s99pc",
    "text": "There were no life jackets and no rescue equipment at the dam.",
    "source": "Case summary"
   },
   {
-   "id": "fmwxqprxqws75",
+   "id": "fmx09f08s4ooq",
    "text": "The workers had no training for work on water.",
    "source": "Case summary"
   },
   {
-   "id": "fmwxqprxqz1a9",
+   "id": "fmx09f08s5qcu",
    "text": "About 17:30 police divers recovered the body of Worker A.",
    "source": "Timeline"
   }
@@ -92,27 +92,27 @@
  "set": "6M",
  "cats": [
   {
-   "id": "kmwxqprxqcxri",
+   "id": "kmx09f08sew3s",
    "name": "People"
   },
   {
-   "id": "kmwxqprxqgbtm",
+   "id": "kmx09f08svk0g",
    "name": "Machine"
   },
   {
-   "id": "kmwxqprxqfgq7",
+   "id": "kmx09f08s8e2z",
    "name": "Method"
   },
   {
-   "id": "kmwxqprxqfben",
+   "id": "kmx09f08sb0b4",
    "name": "Material"
   },
   {
-   "id": "kmwxqprxq0nqd",
+   "id": "kmx09f08sgwt5",
    "name": "Measurement"
   },
   {
-   "id": "kmwxqprxqugq2",
+   "id": "kmx09f08s5it8",
    "name": "Environment"
   }
  ],
